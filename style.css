@@ -1,0 +1,93 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    overflow-x: none;
+}
+
+.left {
+    left: 0;
+    background-color: #fa8072b6;
+}
+
+
+
+.message img {
+
+    width: 60%;
+    height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+.message h1, .message h2 {
+    color: white;
+    text-align: center;  
+    position: absolute; 
+    top: 570px; 
+    left: 0; 
+    width: 100%; 
+
+}
+
+.message h2 {
+   top: 630px; 
+}
+
+.right {
+    right: 0;
+    background-color: #FFFDF9;
+}
+
+.information {
+    margin: 100px 20px 10px 20px;
+    padding: 50px 40px 10px 40px;
+}
+
+.information h1 {
+    padding-bottom: 12px;
+}
+
+hr {
+    border-top: 1px solid rgba(128, 128, 128, 0.465);
+}
+
+.details {
+    margin-top: 40px;
+}
+
+.details input {
+    margin-top: 10px;
+    padding: 13px;
+    width: 100%;
+    border-radius: 5px;
+    border-color: rgba(128, 128, 128, 0.253);
+}
+
+.details button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 12px;
+    color: white;
+    background-color: red;
+    font-size: large;
+    font-weight: 500;
+    border: none;
+    border-radius: 7px;
+}
+
+.details button:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 3px 1px rgba(128, 128, 128, 0.253);;
+}
