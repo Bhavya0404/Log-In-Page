@@ -58,7 +58,7 @@ app.post("/", passport.authenticate('local', { failureRedirect: '/', session: fa
 app.post("/signup", function(req, res){
     var name = req.body.username;
     var pass = req.body.password;
-    var cpass = req.body.cpasword;
+    var cpass = req.body.cpassword;
 
     if(pass == cpass){
         const data1 = new user({
