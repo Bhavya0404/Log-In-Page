@@ -9,7 +9,7 @@
     <title>Log In</title>
 </head>
 <body>
-    <form action="/" method="post">
+    <form action="/signup" method="post">
     <div class="container">
         <div class=" split left">
             <div class="message">
@@ -24,17 +24,19 @@
         <div class=" split right">
             <div class="information">
                 <h1>Let's get started</h1>
-                <p>In case you're new here, <a href="/signup">&nbsp Click Here</a> </p>
                 <hr>
 
                 <div class="details">
-                    <label for="username">Email Address</label><br>
+                    <label for="username">Username</label><br>
                     <input type="text" name="username" id="username" placeholder="Username"><br><br>
 
                     <label for="password">Password</label><br>
                     <input type="password" name="password" id="password" placeholder="Password"><br><br>
 
-                    <button type="submit" name="signin">Sign In</button>
+                    <label for="cpassword">Confrim Password</label><br>
+                    <input type="password" name="cpassword" id="cpassword" placeholder="Confrim Password"><br><br>
+
+                    <button type="submit" name="signin">Sign Up</button>
                 </div>
             </div>
         </div>

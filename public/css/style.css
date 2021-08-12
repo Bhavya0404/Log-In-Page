@@ -56,7 +56,17 @@ body {
 }
 
 .information h1 {
-    padding-bottom: 12px;
+    padding-bottom: 10px;
+}
+
+.information a {
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.671);
+}
+
+.information p {
+    color: rgba(0, 0, 0, 0.65);
+    margin-bottom: 12px;
 }
 
 hr {
